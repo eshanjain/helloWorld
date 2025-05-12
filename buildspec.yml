@@ -8,3 +8,4 @@ phases:
       - echo "Filling disk space until 10MB remains..."
       - df -h 
       - ls -lah  /var/codebuild/reserve
+      - hostname

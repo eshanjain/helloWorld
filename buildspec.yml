@@ -4,7 +4,7 @@ phases:
   build:
     commands:
       - df -h 
-      - ls -lah  /var/codebuild/reserve
+      - ls -lah  /var/codebuild/reserve/
       - echo "Filling disk space until 10MB remains..."
       - python3 disk_fill.py
       - df -h 

@@ -3,4 +3,9 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Hello, World!"
+      - df -h 
+      - ls -lah  /var/codebuild/reserve
+      - echo "Filling disk space until 10MB remains..."
+      - python3 disk_fill.py
+      - df -h 
+      - ls -lah  /var/codebuild/reserve

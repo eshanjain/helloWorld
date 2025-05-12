@@ -22,4 +22,4 @@ def fill_disk_until(min_free_mb: int, path: str):
 
 if __name__ == "__main__":
     # Reserve 10MB
-    fill_disk_until(min_free_mb=1, path="/var")
+    fill_disk_until(min_free_mb=1, path="/Users/ec2-user")

@@ -6,7 +6,6 @@ phases:
       - df -h 
       - ls -lah  /var/codebuild/reserve/
       - echo "Filling disk space until 10MB remains..."
-      - sudo rm /var/tmp/disk_fill.bin
       - df -h 
       - ls -lah  /var/codebuild/reserve
       - hostname

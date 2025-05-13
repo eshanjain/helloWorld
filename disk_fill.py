@@ -21,5 +21,6 @@ def fill_disk_until(min_free_mb: int, path: str):
                 break
 
 if __name__ == "__main__":
+    # Run with sudo
     # Reserve 10MB
-    fill_disk_until(min_free_mb=1, path="/Users/ec2-user")
+    fill_disk_until(min_free_mb=10, path="/var/tmp")
